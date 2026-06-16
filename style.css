@@ -38,6 +38,48 @@
 }
 
 /* ═══════════════════════════════════════════════
+   DARK THEME
+═══════════════════════════════════════════════ */
+body.dark-theme {
+  --bg:           #121212;
+  --card:         #1e1e1e;
+  --fg:           #e5e5e5;
+  --border:       #333333;
+  --muted:        #1a1a1a;
+  --muted-dark:   #252525;
+  --muted-fg:     #9ca3af;
+  --accent:       rgba(67,97,238,0.12);
+  --accent-fg:    #a5b4fc;
+  color:          var(--fg);
+  background-color: var(--bg);
+}
+
+body.dark-theme .navbar {
+  background: rgba(18,18,18,0.85);
+  border-bottom-color: rgba(51,51,51,0.6);
+}
+
+body.dark-theme .section-light,
+body.dark-theme .section-muted,
+body.dark-theme .mobile-menu {
+  border-top-color: rgba(51,51,51,0.6);
+}
+
+body.dark-theme .lang-switcher {
+  background: rgba(30,30,30,0.9);
+}
+
+body.dark-theme .testimonial-quote {
+  color: rgba(229,229,229,0.8);
+}
+
+/* Temporarily enable broad transitions during theme switch */
+.theme-transitioning,
+.theme-transitioning * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+}
+
+/* ═══════════════════════════════════════════════
    RESET & BASE
 ═══════════════════════════════════════════════ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -299,6 +341,24 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 .mobile-nav-link:hover { background: var(--muted); color: var(--fg); }
 
 .mobile-cta { margin-top: 0.5rem; width: 100%; }
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--fg);
+  cursor: pointer;
+  font-size: 0.9375rem;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover { background: var(--muted); }
 
 /* ═══════════════════════════════════════════════
    SECTIONS

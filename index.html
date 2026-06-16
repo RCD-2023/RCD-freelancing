@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -37,6 +38,9 @@
         <button type="button" class="lang-btn active" data-lang="ro" aria-pressed="true">RO</button>
         <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">ENG</button>
       </div>
+      <button type="button" class="theme-toggle" id="theme-toggle-desktop" aria-label="Activează modul întunecat" aria-pressed="false">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+      </button>
       <a href="#contact" class="btn btn-primary" data-i18n="nav.cta">Cere ofertă</a>
     </div>
 
@@ -45,6 +49,9 @@
         <button type="button" class="lang-btn active" data-lang="ro" aria-pressed="true">RO</button>
         <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">ENG</button>
       </div>
+      <button type="button" class="theme-toggle" id="theme-toggle-mobile" aria-label="Activează modul întunecat" aria-pressed="false">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+      </button>
       <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Deschide meniu" aria-expanded="false" aria-controls="mobile-menu">
         <svg class="icon-menu" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>
