@@ -483,6 +483,18 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   line-height: 1.65;
   max-width: 38rem;
   margin: 0 auto 2rem;
+  animation: hero-title-fade-up 0.6s ease 0.1s both;
+}
+
+@keyframes hero-title-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero-ctas {
@@ -1201,6 +1213,10 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
     opacity: 1;
     transform: none;
     transition: none;
+  }
+
+  .hero-subtitle {
+    animation: none;
   }
 }
 
