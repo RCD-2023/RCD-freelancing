@@ -1,6 +1,6 @@
 import { translations } from "./translations.js"
 import { ICONS } from "./icons.js"
-import {
+import { 
   services,
   pricingFeatures,
   portfolioProjects,
@@ -17,15 +17,15 @@ import { currentLang, activeCategory, setCurrentLang, setActiveCategory } from "
 /* ═══════════════════════════════════════════════
    RENDER HELPERS
 ═══════════════════════════════════════════════ */
-export function featureItem(text) {
+function featureItem(text) {
   return `<li class="pricing-feature"><span class="feat-icon">${ICONS.check}</span><span>${text}</span></li>`
 }
 
-export function renderServices() {
+function renderServices() {
   const grid = document.getElementById("services-grid")
   if (!grid) return
   grid.innerHTML = services.map(s => `
-    <div class="service-card">
+    <div class="service-card"> 
       <div class="service-icon">${ICONS[s.icon]}</div>
       <h3>${currentLang === "ro" ? s.ro : s.en}</h3>
       <p>${currentLang === "ro" ? s.roD : s.enD}</p>
@@ -33,7 +33,7 @@ export function renderServices() {
   `).join("")
 }
 
-export function renderPricing() {
+function renderPricing() {
   const feats = pricingFeatures[currentLang]
   const sf = document.getElementById("starter-features")
   const bf = document.getElementById("business-features")
@@ -41,7 +41,7 @@ export function renderPricing() {
   if (bf) bf.innerHTML = feats.business.map(featureItem).join("")
 }
 
-export function renderPortfolioFilters() {
+function renderPortfolioFilters() {
   const container = document.getElementById("portfolio-filters")
   if (!container) return
   const categories = Object.keys(categoryLabels)
@@ -65,7 +65,7 @@ export function renderPortfolioFilters() {
   })
 }
 
-export function renderPortfolioGrid() {
+function renderPortfolioGrid() {
   const grid = document.getElementById("portfolio-grid")
   if (!grid) return
   const filtered = activeCategory === "all"
@@ -88,7 +88,7 @@ export function renderPortfolioGrid() {
   `).join("")
 }
 
-export function renderProcess() {
+function renderProcess() {
   const list = document.getElementById("process-grid")
   if (!list) return
   list.innerHTML = processSteps.map((s, i) => `
@@ -101,7 +101,7 @@ export function renderProcess() {
   `).join("")
 }
 
-export function renderBenefits() {
+function renderBenefits() {
   const grid = document.getElementById("benefits-grid")
   if (!grid) return
   grid.innerHTML = benefits.map(b => `
@@ -115,7 +115,7 @@ export function renderBenefits() {
   `).join("")
 }
 
-export function renderTestimonials() {
+function renderTestimonials() {
   const grid = document.getElementById("testimonials-grid")
   if (!grid) return
   const starsHtml = Array.from({ length: 5 }, () => ICONS.star).join("")
@@ -134,7 +134,7 @@ export function renderTestimonials() {
   `).join("")
 }
 
-export function renderFaq() {
+function renderFaq() {
   const list = document.getElementById("faq-list")
   if (!list) return
   list.innerHTML = faqs.map((f, i) => {
@@ -169,13 +169,13 @@ export function renderFaq() {
   })
 }
 
-export function renderFooterServices() {
+function renderFooterServices() {
   const ul = document.getElementById("footer-services")
   if (!ul) return
   ul.innerHTML = footerServicesList[currentLang].map(s => `<li>${s}</li>`).join("")
 }
 
-export function renderContactSelect() {
+function renderContactSelect() {
   const sel = document.getElementById("business")
   if (!sel) return
   const placeholder = currentLang === "ro" ? "Alege..." : "Choose..."

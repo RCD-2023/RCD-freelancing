@@ -1,7 +1,7 @@
 /* ═══════════════════════════════════════════════
    THEME TOGGLE
 ═══════════════════════════════════════════════ */
-export function applyTheme(dark) {
+function applyTheme(dark) {
   document.documentElement.classList.add("theme-transitioning")
   setTimeout(() => document.documentElement.classList.remove("theme-transitioning"), 300)
 
@@ -15,7 +15,7 @@ export function applyTheme(dark) {
   })
 }
 
-export function initThemeToggle() {
+export function initThemeToggle() { 
   const stored = localStorage.getItem("theme")
   const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
   const isDark = stored ? stored === "dark" : prefersDark

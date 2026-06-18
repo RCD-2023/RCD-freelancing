@@ -10,6 +10,8 @@ Read the following to get the full context of the project:
 - @context/coding-standards.md
 - @context/ai-interaction.md
 - @context/current-feature.md
+- @context/recent-changes-nonClaude.md
+
 
 In @context will be created other folders e.g., features where wil be created namefile-spec.md files.
 

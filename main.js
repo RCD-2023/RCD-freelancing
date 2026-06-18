@@ -4,13 +4,15 @@ import { initMobileMenu } from "./js/menu.js"
 import { initContactForm } from "./js/contact.js"
 
 /* ═══════════════════════════════════════════════
-   LANG SWITCHER BINDING
+   LANG SWITCHER BINDING 
 ═══════════════════════════════════════════════ */
 function initLangSwitcher() {
   document.querySelectorAll(".lang-btn").forEach(btn => {
     btn.addEventListener("click", () => setLang(btn.dataset.lang))
+    
   })
 }
+
 
 /* ═══════════════════════════════════════════════
    FOOTER YEAR
@@ -21,7 +23,7 @@ function setFooterYear() {
 }
 
 /* ═══════════════════════════════════════════════
-   INIT
+   APP INITIALIZATION
 ═══════════════════════════════════════════════ */
 document.addEventListener("DOMContentLoaded", () => {
   setFooterYear()
