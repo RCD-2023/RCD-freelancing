@@ -1183,6 +1183,28 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 }
 
 /* ═══════════════════════════════════════════════
+   SCROLL REVEAL
+═══════════════════════════════════════════════ */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ═══════════════════════════════════════════════
    RESPONSIVE — lg (≥1024px)
 ═══════════════════════════════════════════════ */
 @media (min-width: 1024px) {

@@ -2,6 +2,7 @@ import { setLang } from "./js/render.js"
 import { initThemeToggle } from "./js/theme.js"
 import { initMobileMenu } from "./js/menu.js"
 import { initContactForm } from "./js/contact.js"
+import { initScrollReveal } from "./js/reveal.js"
 
 /* ═══════════════════════════════════════════════
    LANG SWITCHER BINDING 
@@ -32,4 +33,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initContactForm()
   initThemeToggle()
   setLang("ro")  // initial render — triggers all renderers
+  initScrollReveal()
 })
