@@ -16,7 +16,7 @@ This is the common workflow that we will use for every single feature/fix:
 2. **Branch** - Create new branch for feature, fix, etc
 3. **Implement** - Implement the feature/fix that I create in @context/current-feature.md
 4. **Iterate** - Iterate and change things if needed
-5. **Commit** - Only after build passes and everything works
+5. **Commit** - Only after asking user to see in browser
 6. **Merge** - Merge to main
 7. **Delete Branch** - Delete branch after merge
 8. **Review** - Review AI-generated code on demand.

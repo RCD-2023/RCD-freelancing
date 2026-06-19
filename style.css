@@ -569,13 +569,18 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 .service-card {
   background: var(--card);
   border: 1px solid var(--border);
+  border-top: 3px solid transparent;
   border-radius: var(--radius-xl);
   padding: 1.5rem;
   box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, border-top-color 0.2s, transform 0.2s;
 }
 
-.service-card:hover { box-shadow: var(--shadow-md); }
+.service-card:hover {
+  box-shadow: var(--shadow-md);
+  border-top-color: var(--primary);
+  transform: translateY(-4px);
+}
 
 .service-icon {
   display: flex;
@@ -587,6 +592,11 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   color: var(--primary);
   border-radius: var(--radius);
   margin-bottom: 1rem;
+  transition: transform 0.2s;
+}
+
+.service-card:hover .service-icon {
+  transform: translateX(4px);
 }
 
 .service-card h3 {
@@ -614,12 +624,20 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 .pricing-card {
   background: var(--card);
   border: 1px solid var(--border);
+  border-top: 3px solid transparent;
   border-radius: var(--radius-2xl);
   padding: 2rem;
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
   position: relative;
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.pricing-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary);
+  transform: translateY(-4px);
 }
 
 .pricing-card-featured {
@@ -1209,6 +1227,12 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .service-card:hover,
+  .pricing-card:hover,
+  .service-card:hover .service-icon {
+    transform: none;
+  }
+
   .reveal {
     opacity: 1;
     transform: none;
