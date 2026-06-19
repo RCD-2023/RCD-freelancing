@@ -1,6 +1,8 @@
 /* ═══════════════════════════════════════════════
    THEME TOGGLE
 ═══════════════════════════════════════════════ */
+import { ICONS } from "./icons.js"
+
 function applyTheme(dark) {
   document.documentElement.classList.add("theme-transitioning")
   setTimeout(() => document.documentElement.classList.remove("theme-transitioning"), 300)
@@ -10,8 +12,8 @@ function applyTheme(dark) {
   document.querySelectorAll(".theme-toggle").forEach(btn => {
     btn.setAttribute("aria-pressed", String(dark))
     btn.setAttribute("aria-label", dark ? "Activează modul luminos" : "Activează modul întunecat")
-    const icon = btn.querySelector("i")
-    if (icon) icon.className = dark ? "fa-solid fa-sun" : "fa-solid fa-moon"
+    const icon = btn.querySelector(".theme-icon")
+    if (icon) icon.innerHTML = dark ? ICONS.sun : ICONS.moon
   })
 }
 

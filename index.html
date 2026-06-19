@@ -10,7 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script type="module" src="main.js" defer></script>
 </head>
 <body>
@@ -35,22 +34,30 @@
 
     <div class="nav-actions"> 
       <div class="lang-switcher" role="group" aria-label="Selectează limba">
-        <button type="button" class="lang-btn active" data-lang="ro" aria-pressed="true">RO</button>
-        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">ENG</button>
+        <button type="button" class="lang-btn active" data-lang="ro" aria-pressed="true">
+          <svg class="lang-flag" xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 30 20" aria-hidden="true"><rect width="10" height="20" fill="#002B7F"/><rect width="10" height="20" x="10" fill="#FCD116"/><rect width="10" height="20" x="20" fill="#CE1126"/></svg>RO
+        </button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">
+          <svg class="lang-flag" xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#00247d"/><path d="M0 0 30 20M30 0 0 20" stroke="#fff" stroke-width="4"/><path d="M0 0 30 20M30 0 0 20" stroke="#cf142b" stroke-width="2"/><path d="M15 0V20M0 10H30" stroke="#fff" stroke-width="6"/><path d="M15 0V20M0 10H30" stroke="#cf142b" stroke-width="3.6"/></svg>ENG
+        </button>
       </div>
       <button type="button" class="theme-toggle" id="theme-toggle-desktop" aria-label="Activează modul întunecat" aria-pressed="false">
-        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        <span class="theme-icon" aria-hidden="true"></span>
       </button>
       <a href="#contact" class="btn btn-primary" data-i18n="nav.cta">Cere ofertă</a>
     </div>
 
     <div class="nav-mobile-controls">
       <div class="lang-switcher" role="group" aria-label="Selectează limba">
-        <button type="button" class="lang-btn active" data-lang="ro" aria-pressed="true">RO</button>
-        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">ENG</button>
+        <button type="button" class="lang-btn active" data-lang="ro" aria-pressed="true">
+          <svg class="lang-flag" xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 30 20" aria-hidden="true"><rect width="10" height="20" fill="#002B7F"/><rect width="10" height="20" x="10" fill="#FCD116"/><rect width="10" height="20" x="20" fill="#CE1126"/></svg>RO
+        </button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">
+          <svg class="lang-flag" xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#00247d"/><path d="M0 0 30 20M30 0 0 20" stroke="#fff" stroke-width="4"/><path d="M0 0 30 20M30 0 0 20" stroke="#cf142b" stroke-width="2"/><path d="M15 0V20M0 10H30" stroke="#fff" stroke-width="6"/><path d="M15 0V20M0 10H30" stroke="#cf142b" stroke-width="3.6"/></svg>ENG
+        </button>
       </div>
       <button type="button" class="theme-toggle" id="theme-toggle-mobile" aria-label="Activează modul întunecat" aria-pressed="false">
-        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        <span class="theme-icon" aria-hidden="true"></span>
       </button>
       <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Deschide meniu" aria-expanded="false" aria-controls="mobile-menu">
         <svg class="icon-menu" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

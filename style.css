@@ -274,23 +274,31 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 }
 
 .lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
   font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   padding: 0.25rem 0.625rem;
   border-radius: var(--radius-full);
-  border: none;
+  border: 1px solid transparent;
   background: transparent;
   color: var(--muted-fg);
   cursor: pointer;
-  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.lang-flag {
+  border-radius: 2px;
+  flex-shrink: 0;
 }
 
 .lang-btn.active {
-  background: var(--card);
-  color: var(--fg);
-  box-shadow: var(--shadow-sm);
+  background: var(--primary);
+  color: var(--primary-fg);
+  border-color: var(--primary-dark);
 }
 
 .lang-btn:hover:not(.active) { color: var(--fg); }
@@ -364,6 +372,12 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 }
 
 .theme-toggle:hover { background: var(--muted); }
+
+.theme-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* ═══════════════════════════════════════════════
    SECTIONS
