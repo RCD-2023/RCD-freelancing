@@ -13,7 +13,7 @@ export const translations = {
     'hero.title': 'Site-uri web care aduc clienți afacerii tale',
     'hero.subtitle':
       'Site-uri moderne, responsive și optimizate pentru motoarele de căutare. Preț fix, fără costuri ascunse și livrare rapidă în funcție de pachetul ales.',
-    'hero.cta1': 'Cere o ofertă gratuită',
+    'hero.cta1': 'Cere o ofertă gratuită', 
     'hero.cta2': 'Vezi pachetele',
     'hero.metric1': 'proiecte livrate',
     'hero.metric2': 'clienți mulțumiți',
