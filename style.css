@@ -2,12 +2,12 @@
    DESIGN TOKENS
 ═══════════════════════════════════════════════ */
 :root {
-  --primary:      #4361EE;
-  --primary-dark: #3451d1;
+  --primary:      #2563eb;
+  --primary-dark: #1d4ed8;
   --primary-fg:   #FAFBFF;
-  --primary-10:   rgba(67,97,238,0.10);
-  --primary-20:   rgba(67,97,238,0.20);
-  --primary-5:    rgba(67,97,238,0.05);
+  --primary-10:   rgba(37,99,235,0.10);
+  --primary-20:   rgba(37,99,235,0.20);
+  --primary-5:    rgba(37,99,235,0.05);
 
   --bg:           #FAFBFF;
   --fg:           #1E2648;
