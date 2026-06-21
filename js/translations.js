@@ -13,7 +13,7 @@ export const translations = {
     'hero.title': 'Site-uri web care aduc clienți afacerii tale',
     'hero.subtitle':
       'Site-uri moderne, responsive și optimizate pentru motoarele de căutare. Preț fix, fără costuri ascunse și livrare rapidă în funcție de pachetul ales.',
-    'hero.cta1': 'Cere o ofertă gratuită',
+    'hero.cta1': 'Cere ofertă',
     'hero.cta2': 'Vezi pachetele',
     'hero.check1': 'Google Maps',
     'hero.check2': 'SEO de bază',
@@ -25,12 +25,13 @@ export const translations = {
     'pricing.popular': 'Cel mai ales',
     'pricing.starter.name': 'Starter',
     'pricing.starter.desc':
-      'Pentru afaceri la început de drum care vor o prezență online curată.',
-    'pricing.starter.price': '1.490 lei',
+      'Pentru afaceri care vor rapid o prezență online profesională.',
+    'pricing.starter.price': '800-1.000 lei',
     'pricing.business.name': 'Business',
     'pricing.business.desc':
-      'Pentru afaceri care vor să fie găsite și să convertească vizitatori în clienți.',
-    'pricing.business.price': '2.990 lei',
+      'Atragi mai mulți clienți și construiești încredere.',
+    'pricing.business.price': '2.500–3.500 lei',
+    'pricing.business.includes': 'Tot ce e în Starter, plus:',
     'pricing.cta': 'Cere pachetul',
     'portfolio.title': 'Proiecte recente',
     'portfolio.subtitle':
@@ -71,7 +72,7 @@ export const translations = {
     'hero.title': 'Websites that bring customers to your business',
     'hero.subtitle':
       'Modern, responsive, and search engine optimized websites. Fixed pricing, no hidden costs, and fast delivery based on the package you choose.',
-    'hero.cta1': 'Get a free quote',
+    'hero.cta1': 'Request a quote',
     'hero.cta2': 'See packages',
     'hero.check1': 'Google Maps',
     'hero.check2': 'Basic SEO',
@@ -83,12 +84,13 @@ export const translations = {
     'pricing.popular': 'Most popular',
     'pricing.starter.name': 'Starter',
     'pricing.starter.desc':
-      'For early-stage businesses that want a clean online presence.',
-    'pricing.starter.price': '€299',
+      'For businesses looking to establish a professional online presence quickly.',
+    'pricing.starter.price': '€160-200',
     'pricing.business.name': 'Business',
     'pricing.business.desc':
-      'For businesses that want to be found and turn visitors into customers.',
-    'pricing.business.price': '€599',
+      'Generate more clients and build trust.',
+    'pricing.business.price': '€500–700',
+    'pricing.business.includes': 'Everything in Starter, plus:',
     'pricing.cta': 'Choose package',
     'portfolio.title': 'Recent projects',
     'portfolio.subtitle': 'A few of the websites built for local businesses.',
