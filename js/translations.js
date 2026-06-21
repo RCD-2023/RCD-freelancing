@@ -66,7 +66,7 @@ export const translations = {
     'nav.portfolio': 'Portfolio',
     'nav.process': 'Process',
     'nav.faq': 'FAQ',
-    'nav.cta': 'Get a quote',
+    'nav.cta': 'Request a quote',
     'hero.badge': 'Available for new projects',
     'hero.title': 'Websites that bring customers to your business',
     'hero.subtitle':
