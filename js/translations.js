@@ -34,7 +34,7 @@ export const translations = {
     'pricing.business.includes': 'Tot ce e în Starter, plus:',
     'pricing.custom.name': 'Proiecte personalizate',
     'pricing.custom.desc':
-      'Soluții personalizate pentru afaceri cu cerințe unice.',
+      'Pentru proiecte cu funcționalități și cerințe specifice.',
     'pricing.custom.price':
       'Preț stabilit în funcție de cerințele proiectului.',
     'pricing.cta': 'Cere pachetul',
@@ -98,7 +98,7 @@ export const translations = {
     'pricing.business.includes': 'Everything in Starter, plus:',
     'pricing.custom.name': 'Custom project',
     'pricing.custom.desc':
-      'Tailored solutions for unique business requirements.',
+      'For projects with specific requirements and custom features.',
     'pricing.custom.price': 'Pricing based on project requirements.',
     'pricing.cta': 'Choose package',
     'portfolio.title': 'Recent projects',
