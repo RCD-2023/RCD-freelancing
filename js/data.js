@@ -39,6 +39,18 @@ export const pricingFeatures = {
       "Revizuire performanță site la 30 de zile (în prima lună)",
       "1 lună mentenanță gratuită după lansare",
     ],
+    custom: [
+      "Arhitectură personalizată a site-ului",
+      "Număr de pagini adaptat proiectului tău",
+      "Portal clienți & panou de administrare",
+      "Sistem de rezervări și programări online",
+      "Baze de date adaptate nevoilor afacerii tale",
+      "Integrare cu aplicații și servicii externe",
+      "Formulare personalizate pentru afacerea ta",
+      "Site rapid și optimizat pentru utilizatori",
+      "Pregătire pentru o vizibilitate mai bună în Google",
+      "Suport și mentenanță disponibile după lansare",
+    ],
   },
   en: {
     starter: [
@@ -67,6 +79,18 @@ export const pricingFeatures = {
       "Basic competitor analysis",
       "30-day website performance review (first month)",
       "1 month free maintenance support after launch",
+    ],
+    custom: [
+      "Custom website architecture",
+      "Number of pages tailored to your project",
+      "Client Portal & Admin Dashboard",
+      "Custom booking solutions",
+      "Database-powered features",
+      "Integration with external services",
+      "Custom forms tailored to your business",
+      "Fast-loading and optimized website",
+      "Built with SEO best practices",
+      "Maintenance plans available (includes bug fixes and launch stabilization)",
     ],
   },
 }

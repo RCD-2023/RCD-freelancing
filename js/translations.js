@@ -32,6 +32,11 @@ export const translations = {
       'Atragi mai mulți clienți și construiești încredere.',
     'pricing.business.price': '2.500–3.500 lei',
     'pricing.business.includes': 'Tot ce e în Starter, plus:',
+    'pricing.custom.name': 'Proiecte personalizate',
+    'pricing.custom.desc':
+      'Soluții personalizate pentru afaceri cu cerințe unice.',
+    'pricing.custom.price':
+      'Preț stabilit în funcție de cerințele proiectului.',
     'pricing.cta': 'Cere pachetul',
     'portfolio.title': 'Proiecte recente',
     'portfolio.subtitle':
@@ -91,6 +96,10 @@ export const translations = {
       'Generate more clients and build trust.',
     'pricing.business.price': '€500–700',
     'pricing.business.includes': 'Everything in Starter, plus:',
+    'pricing.custom.name': 'Custom project',
+    'pricing.custom.desc':
+      'Tailored solutions for unique business requirements.',
+    'pricing.custom.price': 'Pricing based on project requirements.',
     'pricing.cta': 'Choose package',
     'portfolio.title': 'Recent projects',
     'portfolio.subtitle': 'A few of the websites built for local businesses.',

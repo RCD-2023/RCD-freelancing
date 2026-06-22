@@ -616,8 +616,6 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 .pricing-grid {
   display: grid;
   gap: 1.5rem;
-  max-width: 56rem;
-  margin: 0 auto;
 }
 
 .pricing-card {
@@ -694,6 +692,12 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   letter-spacing: -0.03em;
   color: var(--primary);
   margin-top: 1.5rem;
+}
+
+.pricing-price-quote {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: normal;
 }
 
 .pricing-includes {
@@ -1289,6 +1293,7 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   .portfolio-grid { grid-template-columns: repeat(3, 1fr); }
   .process-grid { grid-template-columns: repeat(4, 1fr); }
   .testimonials-grid { grid-template-columns: repeat(3, 1fr); }
+  .pricing-grid { grid-template-columns: repeat(3, 1fr); }
 
   .footer-grid { grid-template-columns: 2fr 1fr 1fr; }
 }

@@ -37,8 +37,10 @@ function renderPricing() {
   const feats = pricingFeatures[currentLang]
   const sf = document.getElementById("starter-features")
   const bf = document.getElementById("business-features")
+  const cf = document.getElementById("custom-features")
   if (sf) sf.innerHTML = feats.starter.map(featureItem).join("")
   if (bf) bf.innerHTML = feats.business.map(featureItem).join("")
+  if (cf) cf.innerHTML = feats.custom.map(featureItem).join("")
 }
 
 function renderPortfolioFilters() {
