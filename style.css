@@ -493,6 +493,7 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-full);
   margin-bottom: 1.5rem;
+  animation: fade-slide-up 0.6s ease 0.55s both;
 }
 
 .hero-title {
@@ -502,6 +503,11 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   line-height: 1.1;
   color: var(--fg);
   margin-bottom: 1.25rem;
+  animation: fade-slide-up 0.6s ease 0.15s both;
+}
+
+.hero-title-accent {
+  color: var(--primary);
 }
 
 .hero-subtitle {
@@ -510,10 +516,10 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   line-height: 1.65;
   max-width: 38rem;
   margin: 0 auto 2rem;
-  animation: hero-title-fade-up 0.6s ease 0.1s both;
+  animation: fade-slide-up 0.6s ease 0.35s both;
 }
 
-@keyframes hero-title-fade-up {
+@keyframes fade-slide-up {
   from {
     opacity: 0;
     transform: translateY(12px);
@@ -531,6 +537,7 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   gap: 0.75rem;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
+  animation: fade-slide-up 0.6s ease 0.35s both;
 }
 
 .hero-checks {
@@ -541,6 +548,7 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   font-size: 1rem;
   color: var(--muted-fg);
   margin-top: 2.5rem;
+  animation: fade-slide-up 0.6s ease 0.35s both;
 }
 
 .hero-checks li {
@@ -1272,7 +1280,11 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
     transition: none;
   }
 
-  .hero-subtitle {
+  .badge,
+  .hero-title,
+  .hero-subtitle,
+  .hero-ctas,
+  .hero-checks {
     animation: none;
   }
 

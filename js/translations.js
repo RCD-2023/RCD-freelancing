@@ -10,7 +10,8 @@ export const translations = {
     'nav.faq': 'Întrebări',
     'nav.cta': 'Cere ofertă',
     'hero.badge': 'Disponibil pentru proiecte noi',
-    'hero.title': 'Site-uri web care aduc clienți afacerii tale',
+    'hero.titleStart': 'Site-uri web care',
+    'hero.titleHighlight': 'aduc clienți afacerii tale',
     'hero.subtitle':
       'Site-uri moderne, responsive și optimizate pentru motoarele de căutare. Preț fix, fără costuri ascunse și livrare rapidă în funcție de pachetul ales.',
     'hero.cta1': 'Cere ofertă',
@@ -74,7 +75,8 @@ export const translations = {
     'nav.faq': 'FAQ',
     'nav.cta': 'Request a quote',
     'hero.badge': 'Available for new projects',
-    'hero.title': 'Websites that bring customers to your business',
+    'hero.titleStart': 'Websites that',
+    'hero.titleHighlight': 'bring customers to your business',
     'hero.subtitle':
       'Modern, responsive, and search engine optimized websites. Fixed pricing, no hidden costs, and fast delivery based on the package you choose.',
     'hero.cta1': 'Request a quote',
