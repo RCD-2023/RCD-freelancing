@@ -914,11 +914,19 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 .benefit-card {
   background: var(--card);
   border: 1px solid var(--border);
+  border-top: 3px solid transparent;
   border-radius: var(--radius-xl);
   padding: 1.5rem;
   box-shadow: var(--shadow-sm);
   display: flex;
   gap: 1rem;
+  transition: box-shadow 0.2s, border-top-color 0.2s, transform 0.2s;
+}
+
+.benefit-card:hover {
+  box-shadow: var(--shadow-md);
+  border-top-color: var(--primary);
+  transform: translateY(-4px);
 }
 
 .benefit-icon {
@@ -931,6 +939,11 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   color: var(--primary);
   border-radius: var(--radius);
   flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.benefit-card:hover .benefit-icon {
+  transform: translateX(4px);
 }
 
 .benefit-card h3 {
@@ -1281,8 +1294,10 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
 @media (prefers-reduced-motion: reduce) {
   .service-card:hover,
   .pricing-card:hover,
+  .benefit-card:hover,
   .service-card:hover .service-icon,
-  .pricing-card:hover .pricing-icon {
+  .pricing-card:hover .pricing-icon,
+  .benefit-card:hover .benefit-icon {
     transform: none;
   }
 

@@ -110,9 +110,9 @@ export const processSteps = [
 
 export const benefits = [
   { icon: "dollar",    ro: "Preț fix, fără surprize",  en: "Fixed price, no surprises",   roD: "Știi exact cât plătești de la început. Fără costuri ascunse sau facturi neașteptate.", enD: "You know exactly what you pay from the start. No hidden costs." },
-  { icon: "zap",       ro: "Livrare rapidă",           en: "Fast delivery",               roD: "Site-ul tău este gata în 7–14 zile, nu în luni de zile.",                              enD: "Your site is ready in 7–14 days, not months." },
-  { icon: "handshake", ro: "Comunicare directă",       en: "Direct communication",        roD: "Lucrezi direct cu mine, nu cu un call center. Răspuns rapid pe WhatsApp.",            enD: "You work directly with me, not a call center. Fast replies on WhatsApp." },
-  { icon: "shield",    ro: "Construit să dureze",      en: "Built to last",               roD: "Tehnologii moderne, securitate și performanță, ca site-ul să meargă ani de zile.",     enD: "Modern tech, security and performance so the site runs for years." },
+  { icon: "zap",       ro: "Termene predictibile",     en: "Clear timeline",              roD: "Știi de la început etapele proiectului și termenul estimat de livrare.",               enD: "You know the project stages and estimated delivery timeline from the start." },
+  { icon: "handshake", ro: "Comunicare directă",       en: "Direct communication",        roD: "Discuți direct cu persoana care dezvoltă proiectul, fără intermediari.",               enD: "You work directly with the person developing your project." },
+  { icon: "shield",    ro: "Construit să dureze",      en: "Built to last",               roD: "Tehnologii moderne, securitate și performanță, ca site-ul să funcționeze ani de zile.", enD: "Modern tech, security and performance so the site runs for years." },
 ]
 
 export const testimonials = [
