@@ -28,7 +28,7 @@ export const translations = {
     'pricing.starter.desc':
       'Pentru afaceri care vor rapid o prezență online profesională.',
     'pricing.starter.price': '800-1.000 lei',
-    'pricing.business.name': 'Business',
+    'pricing.business.name': 'Profesional',
     'pricing.business.desc':
       'Atragi mai mulți clienți și construiești încredere.',
     'pricing.business.price': '2.500–3.500 lei',
@@ -39,6 +39,9 @@ export const translations = {
     'pricing.custom.price':
       'Preț stabilit în funcție de cerințele proiectului.',
     'pricing.cta': 'Cere pachetul',
+    'pricing.starter.delivery': 'Livrabil estimat: 7-10 zile lucrătoare',
+    'pricing.business.delivery': 'Livrabil estimat: 10–15 zile lucrătoare',
+    'pricing.custom.delivery': 'Livrare în funcție de complexitatea site-ului.',
     'portfolio.title': 'Proiecte recente',
     'portfolio.subtitle':
       'Câteva dintre site-urile create pentru afaceri locale.',
@@ -103,6 +106,9 @@ export const translations = {
       'For projects with specific requirements and custom features.',
     'pricing.custom.price': 'Pricing based on project requirements.',
     'pricing.cta': 'Choose package',
+    'pricing.starter.delivery': 'Estimated delivery: 7-10 business days',
+    'pricing.business.delivery': 'Estimated delivery: 10–15 business days',
+    'pricing.custom.delivery': 'Timeline based on project requirements.',
     'portfolio.title': 'Recent projects',
     'portfolio.subtitle': 'A few of the websites built for local businesses.',
     'portfolio.all': 'All',
