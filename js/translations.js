@@ -40,7 +40,7 @@ export const translations = {
       'Preț stabilit în funcție de cerințele proiectului.',
     'pricing.cta': 'Cere pachetul',
     'pricing.starter.delivery': 'Livrabil estimat: 7-10 zile lucrătoare',
-    'pricing.business.delivery': 'Livrabil estimat: 10–15 zile lucrătoare',
+    'pricing.business.delivery': 'Livrabil estimat: 15–20 zile lucrătoare',
     'pricing.custom.delivery': 'Livrare în funcție de complexitatea site-ului.',
     'portfolio.title': 'Proiecte recente',
     'portfolio.subtitle':
@@ -107,7 +107,7 @@ export const translations = {
     'pricing.custom.price': 'Pricing based on project requirements.',
     'pricing.cta': 'Choose package',
     'pricing.starter.delivery': 'Estimated delivery: 7-10 business days',
-    'pricing.business.delivery': 'Estimated delivery: 10–15 business days',
+    'pricing.business.delivery': 'Estimated delivery: 15-20 business days',
     'pricing.custom.delivery': 'Timeline based on project requirements.',
     'portfolio.title': 'Recent projects',
     'portfolio.subtitle': 'A few of the websites built for local businesses.',
