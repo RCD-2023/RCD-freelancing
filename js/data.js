@@ -117,24 +117,28 @@ export const benefits = [
 
 export const faqs = [
   {
-    ro: { q: "Cât durează să fie gata site-ul?",        a: "În general între 7 și 14 zile lucrătoare, în funcție de pachet și de cât de repede primesc conținutul (texte și poze) de la tine." },
-    en: { q: "How long does the website take?",         a: "Usually between 7 and 14 working days, depending on the package and how quickly I receive your content (text and photos)." },
+    ro: { q: "Prețurile afișate sunt fixe?",                          a: "Pachetele afișate acoperă cele mai comune tipuri de proiecte cu o structură relativ standard. Dacă ai nevoie de funcționalități diferite față de cele incluse în pachetele afișate sau de o soluție personalizată, îți pot oferi o estimare adaptată cerințelor tale." },
+    en: { q: "Are the listed prices fixed?",                          a: "The listed packages cover the most common types of projects with a relatively standard structure. If you need features that are different from the listed packages or a custom solution, I can provide an estimate tailored to your requirements." },
   },
   {
-    ro: { q: "Ce trebuie să-mi pregătesc?",             a: "Ideal e să ai un logo, câteva poze și o idee despre textele pe care le vrei. Dacă nu ai, te pot ajuta să le creezi." },
-    en: { q: "What do I need to prepare?",              a: "Ideally a logo, a few photos and an idea of the texts you want. If you don't have them, I can help you create them." },
+    ro: { q: "Se asigură găzduirea în prețul creării site-ului?",     a: "Nu. Găzduirea (hostingul) și domeniul sunt servicii separate, plătite direct către furnizorul ales. Pot realiza configurarea acestora ca parte a pachetului ales, însă proprietatea și controlul rămân în totalitate ale tale." },
+    en: { q: "Is hosting included in the website development price?", a: "No. Hosting and domain registration are separate services paid directly to the provider of your choice. I can set up and configure these services as part of the project, while ownership and full control of the accounts and website remain entirely yours." },
   },
   {
-    ro: { q: "Site-ul va apărea pe Google?",            a: "Da. Toate pachetele includ SEO de bază și configurare Google, iar pachetul Business include optimizare avansată pentru căutări locale." },
-    en: { q: "Will the site appear on Google?",         a: "Yes. All packages include basic SEO and Google setup, and the Business package includes advanced optimization for local search." },
+    ro: { q: "Pot adăuga funcționalități noi mai târziu?",            a: "Da, în multe cazuri site-ul poate fi extins ulterior cu funcționalități noi. Pentru modificări simple, cum ar fi secțiuni noi, formulare sau ajustări de conținut, intervențiile sunt de obicei rapide. Pentru funcționalități care necesită backend, bază de date, autentificare sau panou de administrare, proiectul devine mai complex și va necesita o estimare separată." },
+    en: { q: "Can I add new features later?",                        a: "Yes, in many cases the website can be extended later with new features. Simple changes such as new sections, forms, or content updates are usually straightforward. Features that require a backend, database, authentication, or an admin panel are more complex and would need a separate estimate." },
   },
   {
-    ro: { q: "Pot să modific singur site-ul după?",     a: "Da, îți predau un site ușor de administrat și îți arăt cum să faci modificări simple. Pentru schimbări mai mari, ofer și mentenanță." },
-    en: { q: "Can I edit the site myself afterwards?",  a: "Yes, I hand over an easy-to-manage site and show you how to make simple changes. For bigger changes I also offer maintenance." },
+    ro: { q: "Cât durează realizarea unui site?",                    a: "În general, realizarea unui site durează aproximativ 2–3 săptămâni din momentul în care aprobăm macheta și primesc toate materialele necesare. Durata poate varia în funcție de complexitatea proiectului și de eventualele cerințe suplimentare." },
+    en: { q: "How long does it take to build a website?",            a: "In general, a website takes around 2–3 weeks to complete from the moment the design mockup is approved and all required materials have been provided. The timeline may vary depending on the project's complexity and any additional requirements." },
   },
   {
-    ro: { q: "Cum se face plata?",                      a: "De obicei 50% avans la început și 50% la livrare. Putem discuta și alte variante în funcție de proiect." },
-    en: { q: "How does payment work?",                  a: "Usually 50% upfront and 50% on delivery. We can discuss other options depending on the project." },
+    ro: { q: "Oferi suport gratuit după lansare?",                   a: "Da. Pachetul Starter include 30 de zile de suport după lansare pentru remedierea eventualelor probleme și ajustări minore. Pentru proiectele care necesită asistență continuă, sunt disponibile servicii de mentenanță și dezvoltare suplimentară la cerere." },
+    en: { q: "Do you offer free post-launch support?",               a: "Yes. All projects include a post-launch support period to address any issues and minor adjustments after the website goes live. The exact duration depends on the selected package. Ongoing maintenance and additional development services are available upon request after the support period ends." },
+  },
+  {
+    ro: { q: "Cum se realizează plata?",                             a: "Plata se realizează pe baza unei facturi emise după livrarea proiectului și aprobarea acestuia de către client. Pentru proiectele mai mari, plata poate fi împărțită în etape, stabilite de comun acord înainte de începerea lucrului." },
+    en: { q: "How does payment work?",                               a: "Payment is made based on an invoice issued after the project is delivered and approved by the client. For larger projects, the payment can be split into agreed milestones established before work begins." },
   },
 ]
 
