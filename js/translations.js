@@ -51,8 +51,6 @@ export const translations = {
     'benefits.title': 'De ce să lucrezi cu mine',
     'benefits.subtitle':
       'Nu o agenție mare, ci un partener dedicat afacerii tale.',
-    'testimonials.title': 'Ce spun clienții',
-    'testimonials.subtitle': 'Afaceri reale, rezultate reale.',
     'faq.title': 'Întrebări frecvente',
     'faq.subtitle': 'Tot ce trebuie să știi înainte să începem.',
     'contact.title': 'Hai să-ți construim site-ul',
@@ -116,8 +114,6 @@ export const translations = {
     'benefits.title': 'Why work with me',
     'benefits.subtitle':
       'Not a big agency — a partner dedicated to your business.',
-    'testimonials.title': 'What clients say',
-    'testimonials.subtitle': 'Real businesses, real results.',
     'faq.title': 'Frequently asked questions',
     'faq.subtitle': 'Everything you need to know before we start.',
     'contact.title': "Let's build your website",

@@ -7,7 +7,6 @@ import {
   categoryLabels,
   processSteps,
   benefits,
-  testimonials,
   faqs,
   footerServicesList,
   businessTypes,
@@ -117,25 +116,6 @@ function renderBenefits() {
   `).join("")
 }
 
-function renderTestimonials() {
-  const grid = document.getElementById("testimonials-grid")
-  if (!grid) return
-  const starsHtml = Array.from({ length: 5 }, () => ICONS.star).join("")
-  grid.innerHTML = testimonials.map(t => `
-    <figure class="testimonial-card">
-      <div class="stars" aria-label="5 stele din 5">${starsHtml}</div>
-      <blockquote class="testimonial-quote">${currentLang === "ro" ? t.ro : t.en}</blockquote>
-      <figcaption class="testimonial-author">
-        <div class="testimonial-avatar" aria-hidden="true">${t.name.charAt(0)}</div>
-        <div>
-          <span class="testimonial-name">${t.name}</span>
-          <span class="testimonial-role">${t.role[currentLang]}</span>
-        </div>
-      </figcaption>
-    </figure>
-  `).join("")
-}
-
 function renderFaq() {
   const list = document.getElementById("faq-list")
   if (!list) return
@@ -218,7 +198,6 @@ export function setLang(lang) {
   renderPortfolioGrid()
   renderProcess()
   renderBenefits()
-  renderTestimonials()
   renderFaq()
   renderFooterServices()
   renderContactSelect()

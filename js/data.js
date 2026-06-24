@@ -115,27 +115,6 @@ export const benefits = [
   { icon: "shield",    ro: "Construit să dureze",      en: "Built to last",               roD: "Tehnologii moderne, securitate și performanță, ca site-ul să funcționeze ani de zile.", enD: "Modern tech, security and performance so the site runs for years." },
 ]
 
-export const testimonials = [
-  {
-    name: "Andreea M.",
-    role: { ro: "Proprietar salon",   en: "Salon owner" },
-    ro: "De când am site cu rezervări online, am mult mai puține apeluri și clienții se programează singuri. Merită fiecare leu.",
-    en: "Since I have a site with online booking, I get far fewer calls and clients book themselves. Worth every penny.",
-  },
-  {
-    name: "Mihai R.",
-    role: { ro: "Manager restaurant", en: "Restaurant manager" },
-    ro: "Apărem acum primii pe Google Maps în zona noastră. Numărul de rezervări a crescut vizibil în prima lună.",
-    en: "We now show up first on Google Maps in our area. Reservations grew visibly in the first month.",
-  },
-  {
-    name: "Dr. Elena P.",
-    role: { ro: "Medic stomatolog",   en: "Dentist" },
-    ro: "Comunicare excelentă și un site curat, profesional. Pacienții îmi spun mereu cât de ușor e să facă o programare.",
-    en: "Excellent communication and a clean, professional site. Patients always tell me how easy it is to book.",
-  },
-]
-
 export const faqs = [
   {
     ro: { q: "Cât durează să fie gata site-ul?",        a: "În general între 7 și 14 zile lucrătoare, în funcție de pachet și de cât de repede primesc conținutul (texte și poze) de la tine." },
