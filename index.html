@@ -305,19 +305,18 @@
           <p class="contact-success-msg" data-i18n="contact.success">Mulțumesc! Revin cu un răspuns în maxim 24 de ore.</p>
         </div>
 
-        <form class="contact-form" id="contact-form" novalidate>
+        <form class="contact-form" id="contact-form">
           <div class="form-group">
             <label for="name" data-i18n="contact.name">Nume</label>
-            <input id="name" name="name" type="text" required autocomplete="name">
+            <input id="name" name="name" type="text" required minlength="2" maxlength="100" autocomplete="name">
           </div>
           <div class="form-group">
             <label for="email" data-i18n="contact.email">Email</label>
             <input id="email" name="email" type="email" required autocomplete="email" data-i18n-placeholder="contact.emailPlaceholder" placeholder="exemplu@email.com">
-            <span class="form-error" id="email-error" role="alert"></span>
           </div>
           <div class="form-group">
             <label for="message" data-i18n="contact.message">Mesaj</label>
-            <textarea id="message" name="message" rows="4" data-i18n-placeholder="contact.messagePlaceholder" placeholder="Descrie pe scurt afacerea ta, pachetul care te interesează și orice alte detalii relevante."></textarea>
+            <textarea id="message" name="message" rows="4" required minlength="20" maxlength="2000" data-i18n-placeholder="contact.messagePlaceholder" placeholder="Descrie pe scurt afacerea ta, pachetul care te interesează și orice alte detalii relevante."></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-lg form-submit" data-i18n="contact.send">Trimite cererea</button>
         </form>

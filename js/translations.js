@@ -60,7 +60,6 @@ export const translations = {
     'contact.name': 'Nume',
     'contact.email': 'Email',
     'contact.emailPlaceholder': 'exemplu@email.com',
-    'contact.emailError': 'Introdu o adresă de email validă.',
     'contact.message': 'Mesaj',
     'contact.messagePlaceholder':
       'Descrie pe scurt afacerea ta, pachetul care te interesează și orice alte detalii relevante.',
@@ -126,7 +125,6 @@ export const translations = {
     'contact.name': 'Name',
     'contact.email': 'Email',
     'contact.emailPlaceholder': 'example@email.com',
-    'contact.emailError': 'Please enter a valid email address.',
     'contact.message': 'Message',
     'contact.messagePlaceholder':
       "Briefly describe your business, the package you're interested in, and any other relevant details.",
