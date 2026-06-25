@@ -9,7 +9,6 @@ import {
   benefits,
   faqs,
   footerServicesList,
-  businessTypes,
 } from "./data.js"
 import { currentLang, activeCategory, setCurrentLang, setActiveCategory } from "./state.js"
 
@@ -157,14 +156,6 @@ function renderFooterServices() {
   ul.innerHTML = footerServicesList[currentLang].map(s => `<li>${s}</li>`).join("")
 }
 
-function renderContactSelect() {
-  const sel = document.getElementById("business")
-  if (!sel) return
-  const placeholder = currentLang === "ro" ? "Alege..." : "Choose..."
-  sel.innerHTML = `<option value="" disabled selected>${placeholder}</option>` +
-    businessTypes[currentLang].map(b => `<option value="${b}">${b}</option>`).join("")
-}
-
 /* ═══════════════════════════════════════════════
    LANGUAGE SYSTEM
 ═══════════════════════════════════════════════ */
@@ -177,6 +168,13 @@ export function setLang(lang) {
     const key = el.dataset.i18n
     const val = translations[lang][key]
     if (val) el.textContent = val
+  })
+
+  // Update data-i18n-placeholder elements
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    const key = el.dataset.i18nPlaceholder
+    const val = translations[lang][key]
+    if (val) el.placeholder = val
   })
 
   // Update data-lang visibility (inline bilingual spans)
@@ -200,5 +198,4 @@ export function setLang(lang) {
   renderBenefits()
   renderFaq()
   renderFooterServices()
-  renderContactSelect()
 }

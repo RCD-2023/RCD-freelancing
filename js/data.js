@@ -146,8 +146,3 @@ export const footerServicesList = {
   ro: ["Creare site web", "Google Maps", "SEO de bază", "Analytics", "Mentenanță"],
   en: ["Website creation", "Google Maps", "Basic SEO", "Analytics", "Maintenance"],
 }
-
-export const businessTypes = {
-  ro: ["Salon / Beauty", "Restaurant / Cafenea", "Cabinet medical", "Transport / Logistică", "Magazin online", "Alt tip de serviciu"],
-  en: ["Salon / Beauty", "Restaurant / Cafe", "Medical office", "Transport / Logistics", "Online shop", "Other service"],
-}

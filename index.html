@@ -271,11 +271,17 @@
       <div class="contact-info">
         <p class="section-label" data-i18n="nav.cta">Cere ofertă</p>
         <h2 class="section-title contact-title" data-i18n="contact.title">Hai să-ți construim site-ul</h2>
-        <p class="contact-subtitle" data-i18n="contact.subtitle">Spune-mi câteva detalii despre afacerea ta și primești o ofertă personalizată în maxim 24 de ore.</p>
-        <a href="https://wa.me/40700000000" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg contact-wa">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"/></svg>
-          <span data-i18n="contact.whatsapp">Scrie pe WhatsApp</span>
-        </a>
+        <p class="contact-subtitle" data-i18n="contact.subtitle">Spune-mi câteva detalii despre afacerea ta și primești o ofertă personalizată.</p>
+        <div class="contact-actions">
+          <a href="https://wa.me/40700000000" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"/></svg>
+            <span data-i18n="contact.whatsapp">Scrie pe WhatsApp</span>
+          </a>
+          <a href="tel:+40733154058" class="btn btn-outline btn-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+40 733 154 058</span>
+          </a>
+        </div>
         <ul class="contact-checks">
           <li class="contact-check">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
@@ -284,8 +290,8 @@
           </li>
           <li class="contact-check">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-            <span data-lang="ro">Ofertă gratuită, fără obligații</span>
-            <span data-lang="en">Free quote, no obligations</span>
+            <span data-lang="ro">Oferta este gratuită.</span>
+            <span data-lang="en">The quote is free.</span>
           </li>
         </ul>
       </div>
@@ -306,17 +312,12 @@
           </div>
           <div class="form-group">
             <label for="email" data-i18n="contact.email">Email</label>
-            <input id="email" name="email" type="email" required autocomplete="email">
-          </div>
-          <div class="form-group">
-            <label for="business" data-i18n="contact.business">Tipul afacerii</label>
-            <select id="business" name="business" required>
-              <option value="" disabled selected data-lang="ro">Alege...</option>
-            </select>
+            <input id="email" name="email" type="email" required autocomplete="email" data-i18n-placeholder="contact.emailPlaceholder" placeholder="exemplu@email.com">
+            <span class="form-error" id="email-error" role="alert"></span>
           </div>
           <div class="form-group">
             <label for="message" data-i18n="contact.message">Mesaj</label>
-            <textarea id="message" name="message" rows="4"></textarea>
+            <textarea id="message" name="message" rows="4" data-i18n-placeholder="contact.messagePlaceholder" placeholder="Descrie pe scurt afacerea ta, pachetul care te interesează și orice alte detalii relevante."></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-lg form-submit" data-i18n="contact.send">Trimite cererea</button>
         </form>
