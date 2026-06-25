@@ -11,4 +11,21 @@ export function initContactForm() {
     form.style.display = "none"
     success.style.display = "flex"
   })
+
+  initMessageCounter()
+}
+
+function initMessageCounter() {
+  const message = document.getElementById("message")
+  const counter = document.getElementById("message-counter")
+  if (!message || !counter) return
+
+  const maxLength = message.maxLength
+
+  const updateCounter = () => {
+    counter.textContent = `${message.value.length} / ${maxLength}`
+  }
+
+  message.addEventListener("input", updateCounter)
+  updateCounter()
 }

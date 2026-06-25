@@ -1084,6 +1084,12 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   height: 2.75rem;
 }
 
+.char-counter {
+  font-size: 0.8125rem;
+  color: var(--muted-fg);
+  justify-self: end;
+}
+
 .form-submit { margin-top: 0.5rem; width: 100%; }
 
 .contact-success {
