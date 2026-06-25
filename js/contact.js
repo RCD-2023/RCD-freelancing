@@ -12,10 +12,10 @@ export function initContactForm() {
     success.style.display = "flex"
   })
 
-  initMessageCounter()
+  initMessageCharacterCounter()
 }
 
-function initMessageCounter() {
+function initMessageCharacterCounter() {
   const message = document.getElementById("message")
   const counter = document.getElementById("message-counter")
   if (!message || !counter) return
