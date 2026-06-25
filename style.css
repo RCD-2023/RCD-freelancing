@@ -21,6 +21,7 @@
 
   --wa-green:     #25D366;
   --wa-dark:      #1eb858;
+  --danger:       #dc2626;
 
   --radius-sm:    0.5rem;
   --radius:       0.875rem;
@@ -1088,6 +1089,11 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   font-size: 0.8125rem;
   color: var(--muted-fg);
   justify-self: end;
+}
+
+.form-error {
+  font-size: 0.8125rem;
+  color: var(--danger);
 }
 
 .form-submit { margin-top: 0.5rem; width: 100%; }

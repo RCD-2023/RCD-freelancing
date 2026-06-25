@@ -65,7 +65,10 @@ export const translations = {
     'contact.messagePlaceholder':
       'Descrie pe scurt afacerea ta, pachetul care te interesează și orice alte detalii relevante.',
     'contact.send': 'Trimite cererea',
-    'contact.success': 'Mulțumesc! Revin cu un răspuns în maxim 24 de ore.',
+    'contact.success':
+      'Solicitarea ta a fost trimisă cu succes. Îți mulțumesc și voi reveni cu un răspuns în cel mai scurt timp.',
+    'contact.error':
+      'A apărut o eroare la trimiterea formularului. Te rugăm să încerci din nou.',
     'footer.tagline': 'Site-uri web pentru afaceri locale care vor să crească.',
     'footer.links': 'Navigare',
     'footer.services': 'Servicii',
@@ -131,7 +134,10 @@ export const translations = {
     'contact.messagePlaceholder':
       "Briefly describe your business, the package you're interested in, and any other relevant details.",
     'contact.send': 'Send request',
-    'contact.success': "Thank you! I'll get back to you within 24 hours.",
+    'contact.success':
+      "Your inquiry has been sent successfully. Thank you, and I'll respond as soon as possible.",
+    'contact.error':
+      'Something went wrong while sending the form. Please try again.',
     'footer.tagline': 'Websites for local businesses that want to grow.',
     'footer.links': 'Navigation',
     'footer.services': 'Services',
