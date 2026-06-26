@@ -42,9 +42,9 @@ export const translations = {
     'pricing.starter.delivery': 'Livrabil estimat: 7-10 zile lucrătoare',
     'pricing.business.delivery': 'Livrabil estimat: 15–20 zile lucrătoare',
     'pricing.custom.delivery': 'Livrare în funcție de complexitatea site-ului.',
-    'portfolio.title': 'Proiecte recente',
+    'portfolio.title': 'Proiecte selectate',
     'portfolio.subtitle':
-      'Câteva dintre site-urile create pentru afaceri locale.',
+      'Exemple de aplicații și site-uri web dezvoltate folosind tehnologii moderne.',
     'portfolio.all': 'Toate',
     'process.title': 'Cum lucrăm împreună',
     'process.subtitle': 'Un proces simplu, în 4 pași, de la idee la lansare.',
@@ -112,8 +112,9 @@ export const translations = {
     'pricing.starter.delivery': 'Estimated delivery: 7-10 business days',
     'pricing.business.delivery': 'Estimated delivery: 15-20 business days',
     'pricing.custom.delivery': 'Timeline based on project requirements.',
-    'portfolio.title': 'Recent projects',
-    'portfolio.subtitle': 'A few of the websites built for local businesses.',
+    'portfolio.title': 'Selected Projects',
+    'portfolio.subtitle':
+      'Examples of apps and websites built using modern technologies.',
     'portfolio.all': 'All',
     'process.title': 'How we work together',
     'process.subtitle': 'A simple 4-step process, from idea to launch.',
