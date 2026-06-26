@@ -84,21 +84,23 @@ export const pricingFeatures = {
 }
 
 export const portfolioProjects = [
-  { title: "Bella Hair Studio",    category: "salon",     image: "../public/portfolio/salon.png",     ro: "Site cu sistem de rezervări online.",          en: "Site with online booking system." },
-  { title: "Trattoria Verde",      category: "horeca",    image: "../public/portfolio/restaurant.png", ro: "Meniu digital și rezervări de masă.",          en: "Digital menu and table reservations." },
-  { title: "DentClinic Plus",      category: "medical",   image: "../public/portfolio/clinic.png",     ro: "Programări online și prezentare servicii.",    en: "Online appointments and service overview." },
-  { title: "RapidTrans Logistic",  category: "transport", image: "../public/portfolio/transport.png",  ro: "Cereri de ofertă și urmărire comenzi.",        en: "Quote requests and order tracking." },
-  { title: "Casa Verde Shop",      category: "shop",      image: "../public/portfolio/shop.png",       ro: "Magazin online cu plată securizată.",          en: "Online shop with secure checkout." },
-  { title: "CleanPro Services",    category: "services",  image: "../public/portfolio/services.png",   ro: "Prezentare servicii și formular rapid.",       en: "Service overview and quick contact form." },
+  { title: "Fashion",               category: "fashion",     image: "../public/portfolio/salon.png",      ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Electronics",           category: "electronics", image: "../public/portfolio/restaurant.png", ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Real Estate",           category: "realestate",  image: "../public/portfolio/clinic.png",     ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Food Blog",             category: "foodblog",    image: "../public/portfolio/transport.png",  ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Developer Tool (SaaS)", category: "saas",        image: "../public/portfolio/shop.png",       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Data Management App",   category: "dataapp",     image: "../public/portfolio/services.png",   ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Health Portal",         category: "healthportal", image: "../public/portfolio/health.png",    ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
 ]
 
 export const categoryLabels = {
-  salon:     { ro: "Saloane",     en: "Salons" },
-  horeca:    { ro: "Restaurante", en: "Restaurants" },
-  medical:   { ro: "Medical",     en: "Medical" },
-  transport: { ro: "Transport",   en: "Transport" },
-  shop:      { ro: "Magazine",    en: "Shops" },
-  services:  { ro: "Servicii",    en: "Services" },
+  fashion:      { ro: "Îmbrăcăminte",              en: "Fashion" },
+  electronics:  { ro: "Electronice",               en: "Electronics" },
+  realestate:   { ro: "Imobiliare",                en: "Real Estate" },
+  foodblog:     { ro: "Blog culinar",              en: "Food Blog" },
+  saas:         { ro: "Developer Tool (SaaS)",     en: "Developer Tool (SaaS)" },
+  dataapp:      { ro: "Aplicație management date", en: "Data Management App" },
+  healthportal: { ro: "Portal medical",            en: "Health Portal" },
 }
 
 export const processSteps = [
