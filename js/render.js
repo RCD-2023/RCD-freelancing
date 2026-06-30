@@ -76,12 +76,15 @@ function renderPortfolioGrid() {
     <article class="portfolio-card">
       <div class="portfolio-img-wrap">
         <img src="${p.image}" alt="${p.title}" loading="lazy" onerror="this.style.display='none'">
+        ${p.demoUrl ? `
+          <a class="portfolio-demo-link" href="${p.demoUrl}" target="_blank" rel="noopener noreferrer">
+            ${translations[currentLang]["portfolio.demo"]}
+            ${ICONS.external}
+          </a>
+        ` : ""}
       </div>
       <div class="portfolio-body">
-        <div class="portfolio-body-top">
-          <h3 class="portfolio-title">${p.title}</h3>
-          <span class="portfolio-cat-badge">${categoryLabels[p.category][currentLang]}</span>
-        </div>
+        <h3 class="portfolio-title">${p.title}</h3>
         <p class="portfolio-desc">${currentLang === "ro" ? p.ro : p.en}</p>
       </div>
     </article>

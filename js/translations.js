@@ -46,6 +46,7 @@ export const translations = {
     'portfolio.subtitle':
       'Exemple de aplicații și site-uri web dezvoltate folosind tehnologii moderne.',
     'portfolio.all': 'Toate',
+    'portfolio.demo': 'Vezi live',
     'process.title': 'Cum lucrăm împreună',
     'process.subtitle': 'Un proces simplu, în 4 pași, de la idee la lansare.',
     'benefits.title': 'De ce să lucrezi cu mine',
@@ -116,6 +117,7 @@ export const translations = {
     'portfolio.subtitle':
       'Examples of apps and websites built using modern technologies.',
     'portfolio.all': 'All',
+    'portfolio.demo': 'Live Demo',
     'process.title': 'How we work together',
     'process.subtitle': 'A simple 4-step process, from idea to launch.',
     'benefits.title': 'Why work with me',

@@ -84,13 +84,14 @@ export const pricingFeatures = {
 }
 
 export const portfolioProjects = [
-  { title: "Fashion",               category: "fashion",     image: "../public/portfolio/salon.png",      ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Electronics",           category: "electronics", image: "../public/portfolio/restaurant.png", ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Real Estate",           category: "realestate",  image: "../public/portfolio/clinic.png",     ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Food Blog",             category: "foodblog",    image: "../public/portfolio/transport.png",  ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Developer Tool (SaaS)", category: "saas",        image: "../public/portfolio/shop.png",       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Data Management App",   category: "dataapp",     image: "../public/portfolio/services.png",   ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Health Portal",         category: "healthportal", image: "../public/portfolio/health.png",    ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Fashion",                 category: "fashion",     image: "images/NextJs-Proj1/nextjs-pr1-img1.png",        demoUrl: "https://ecomm-bay-chi.vercel.app/",     ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Real Estate",             category: "realestate",  image: "images/NextJs-Proj2/nextjs-pr2-img1.png",        demoUrl: "https://rcd-prop-pulse.vercel.app/",     ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Food Blog",               category: "foodblog",    image: "images/culinar-img/culinar_img1.png",            demoUrl: "https://astro-culinary-site.vercel.app/", ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Developer Tool (SaaS)",   category: "saas",        image: "images/devstash/devstash-img1.png",              demoUrl: "https://rcd-devstash.vercel.app/",       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Electronics",             category: "electronics", image: "images/mern-proshop/img1-proshop.png",           demoUrl: "",                                       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Real Estate",             category: "realestate",  image: "images/django/img1-django.png",                  demoUrl: "",                                       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Data Management App",     category: "dataapp",     image: "images/dataCollect-images/formsApp-img5.png",    demoUrl: "",                                       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
+  { title: "Health Portal",           category: "healthportal", image: "",                                              demoUrl: "",                                       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
 ]
 
 export const categoryLabels = {

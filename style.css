@@ -793,12 +793,16 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   border-radius: var(--radius-xl);
   overflow: hidden;
   box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
-.portfolio-card:hover { box-shadow: var(--shadow-md); }
+.portfolio-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
 
 .portfolio-img-wrap {
+  position: relative;
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
@@ -818,34 +822,54 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   padding: 1.25rem;
 }
 
-.portfolio-body-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .portfolio-title {
   font-size: 0.9375rem;
   font-weight: 700;
-}
-
-.portfolio-cat-badge {
-  font-size: 0.6875rem;
-  font-weight: 600;
-  background: var(--accent);
-  color: var(--accent-fg);
-  padding: 0.2rem 0.625rem;
-  border-radius: var(--radius-full);
-  white-space: nowrap;
-  flex-shrink: 0;
+  margin-bottom: 0.5rem;
 }
 
 .portfolio-desc {
   font-size: 0.875rem;
   color: var(--muted-fg);
   line-height: 1.55;
+}
+
+.portfolio-demo-link {
+  position: absolute;
+  left: 50%;
+  bottom: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-full);
+  background: var(--primary);
+  color: var(--primary-fg);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-md);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 8px);
+  transition: opacity 0.25s ease, transform 0.25s ease, background 0.2s ease;
+}
+
+.portfolio-card:hover .portfolio-demo-link {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
+}
+
+.portfolio-demo-link:hover {
+  background: var(--primary-dark);
+}
+
+@media (hover: none) {
+  .portfolio-demo-link {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, 0);
+  }
 }
 
 /* ═══════════════════════════════════════════════
@@ -1242,6 +1266,9 @@ textarea { padding: 0.625rem 0.875rem; resize: vertical; }
   .service-card:hover,
   .pricing-card:hover,
   .benefit-card:hover,
+  .portfolio-card:hover,
+  .portfolio-card:hover .portfolio-img-wrap img,
+  .portfolio-card:hover .portfolio-demo-link,
   .service-card:hover .service-icon,
   .pricing-card:hover .pricing-icon,
   .benefit-card:hover .benefit-icon {
