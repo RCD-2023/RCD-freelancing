@@ -2,12 +2,12 @@
    DATA ARRAYS
 ═══════════════════════════════════════════════ */
 export const services = [
-  { icon: "globe",      ro: "Creare site web",            en: "Website creation",          roD: "Site modern, rapid și responsive, construit pe măsura afacerii tale.",             enD: "A modern, fast, responsive website built for your business." },
-  { icon: "mappin",     ro: "Google Business & Maps",     en: "Google Business & Maps",    roD: "Configurare profil Google ca să apari pe hartă și în căutări locale.",             enD: "Google profile setup so you appear on the map and in local search." },
-  { icon: "search",     ro: "SEO de bază",                en: "Basic SEO",                 roD: "Optimizare pentru cuvinte cheie locale, ca să fii găsit de clienți.",              enD: "Optimization for local keywords so customers can find you." },
-  { icon: "barchart",   ro: "Analytics & Search Console", en: "Analytics & Search Console",roD: "Configurare instrumente ca să vezi clar câți vizitatori ai.",                      enD: "Tools set up so you clearly see how many visitors you get." },
-  { icon: "megaphone",  ro: "Promovare opțională",        en: "Optional promotion",        roD: "Campanii Google și social media pentru mai mulți clienți.",                        enD: "Google and social media campaigns for more customers." },
-  { icon: "wrench",     ro: "Mentenanță",                 en: "Maintenance",               roD: "Actualizări, backup și suport ca site-ul să meargă perfect.",                     enD: "Updates, backups and support so the site runs perfectly." },
+  { icon: "globe", ro: "Creare site web", en: "Website creation", roD: "Site modern, rapid și responsive, construit pe măsura afacerii tale.", enD: "A modern, fast, responsive website built for your business." },
+  { icon: "mappin", ro: "Google Business & Maps", en: "Google Business & Maps", roD: "Configurare profil Google ca să apari pe hartă și în căutări locale.", enD: "Google profile setup so you appear on the map and in local search." },
+  { icon: "search", ro: "SEO de bază", en: "Basic SEO", roD: "Optimizare pentru cuvinte cheie locale, ca să fii găsit de clienți.", enD: "Optimization for local keywords so customers can find you." },
+  { icon: "barchart", ro: "Analytics & Search Console", en: "Analytics & Search Console", roD: "Configurare instrumente ca să vezi clar câți vizitatori ai.", enD: "Tools set up so you clearly see how many visitors you get." },
+  { icon: "megaphone", ro: "Promovare opțională", en: "Optional promotion", roD: "Campanii Google și social media pentru mai mulți clienți.", enD: "Google and social media campaigns for more customers." },
+  { icon: "wrench", ro: "Mentenanță", en: "Maintenance", roD: "Actualizări, backup și suport ca site-ul să meargă perfect.", enD: "Updates, backups and support so the site runs perfectly." },
 ]
 
 export const pricingFeatures = {
@@ -84,64 +84,120 @@ export const pricingFeatures = {
 }
 
 export const portfolioProjects = [
-  { title: "Fashion",                 category: "fashion",     image: "images/NextJs-Proj1/nextjs-pr1-img1.png",        demoUrl: "https://ecomm-bay-chi.vercel.app/",     ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Real Estate",             category: "realestate",  image: "images/NextJs-Proj2/nextjs-pr2-img1.png",        demoUrl: "https://rcd-prop-pulse.vercel.app/",     ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Food Blog",               category: "foodblog",    image: "images/culinar-img/culinar_img1.png",            demoUrl: "https://astro-culinary-site.vercel.app/", ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Developer Tool (SaaS)",   category: "saas",        image: "images/devstash/devstash-img1.png",              demoUrl: "https://rcd-devstash.vercel.app/",       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Electronics",             category: "electronics", image: "images/mern-proshop/img1-proshop.png",           demoUrl: "",                                       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Real Estate",             category: "realestate",  image: "images/django/img1-django.png",                  demoUrl: "",                                       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Data Management App",     category: "dataapp",     image: "images/dataCollect-images/formsApp-img5.png",    demoUrl: "",                                       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-  { title: "Health Portal",           category: "healthportal", image: "",                                              demoUrl: "",                                       ro: "Lorem ipsum dolor sit amet consectetur.", en: "Lorem ipsum dolor sit amet consectetur." },
-]
+  {
+    title: 'Fashion',
+    category: 'fashion',
+    image: 'images/NextJs-Proj1/nextjs-pr1-img1.png',
+    demoUrl: 'https://ecomm-bay-chi.vercel.app/',
+    ro: 'Magazin online demo de haine, cu funcționalități de e-commerce: coș de cumpărături, autentificare, plăți online prin Stripe și PayPal și recenzii ale clienților.',
+    en: 'Demo online clothing store with e-commerce functionality: shopping cart, authentication, online payments via Stripe and PayPal, and customer reviews.',
+  },
+  {
+    title: 'Real Estate',
+    category: 'realestate',
+    image: 'images/NextJs-Proj2/nextjs-pr2-img1.png',
+    demoUrl: 'https://rcd-prop-pulse.vercel.app/',
+    ro: 'Proiect demo de imobiliare cu funcționalități extinse: afișare pe hartă, autentificare cu cont Gmail, formular de contact pentru proprietar și formular pentru adăugarea proprietăților.',
+    en: 'Real estate demo project with extended functionality: map display, Gmail account authentication, owner contact form, and property submission form.',
+  },
+  {
+    title: 'Food Blog',
+    category: 'foodblog',
+    image: 'images/culinar-img/culinar_img1.png',
+    demoUrl: 'https://astro-culinary-site.vercel.app/',
+    ro: 'Aplicație simplă de tip blog culinar, construită pentru prezentarea unor rețete demo de conserve și siropuri pentru iarnă. Imaginile sunt placeholder, iar textele sunt fictive, nu rețete reale.',
+    en: 'Simple culinary blog application built to present demo recipes for preserves and winter syrups. The images are placeholders, and the text is fictional, not real recipes.',
+  },
+  {
+    title: 'Developer Tool (SaaS)',
+    category: 'saas',
+    image: 'images/devstash/devstash-img1.png',
+    demoUrl: 'https://rcd-devstash.vercel.app/',
+    ro: 'Aplicație SaaS demo pentru centralizarea resurselor folosite frecvent de programatori: snippet-uri, prompturi, comenzi, notițe, linkuri și fișiere.',
+    en: 'Demo SaaS application for centralizing resources commonly used by developers: snippets, prompts, commands, notes, links, and files.',
+  },
+  {
+    title: 'Electronics',
+    category: 'electronics',
+    image: 'images/mern-proshop/img1-proshop.png',
+    demoUrl: '',
+    ro: 'Magazin online demo pentru produse electronice. Momentan linkul demo este dezactivat.',
+    en: 'Demo online store for electronic products. The demo link is currently disabled.',
+  },
+  {
+    title: 'Real Estate',
+    category: 'realestate',
+    image: 'images/django/img1-django.png',
+    demoUrl: '',
+    ro: 'Proiect demo de imobiliare construit cu Django. Momentan linkul demo este dezactivat.',
+    en: 'Real estate demo project built with Django. The demo link is currently disabled.',
+  },
+  {
+    title: 'Data Management App',
+    category: 'dataapp',
+    image: 'images/dataCollect-images/formsApp-img5.png',
+    demoUrl: '',
+    ro: 'Aplicație demo pentru colectarea și stocarea datelor prin formulare. Momentan linkul demo este dezactivat.',
+    en: 'Demo application for collecting and storing data through forms. The demo link is currently disabled.',
+  },
+  {
+    title: 'Health Portal',
+    category: 'healthportal',
+    image: '',
+    demoUrl: '',
+    ro: 'Portal medical informativ demo pentru medicina de călătorie. Toate informațiile sunt strict demonstrative și nu sunt validate științific.',
+    en: 'Demo medical information portal for travel medicine. All information is strictly for demonstration purposes and is not scientifically validated.',
+  },
+];
 
 export const categoryLabels = {
-  fashion:      { ro: "Îmbrăcăminte",              en: "Fashion" },
-  electronics:  { ro: "Electronice",               en: "Electronics" },
-  realestate:   { ro: "Imobiliare",                en: "Real Estate" },
-  foodblog:     { ro: "Blog culinar",              en: "Food Blog" },
-  saas:         { ro: "Developer Tool (SaaS)",     en: "Developer Tool (SaaS)" },
-  dataapp:      { ro: "Aplicație management date", en: "Data Management App" },
-  healthportal: { ro: "Portal medical",            en: "Health Portal" },
+  fashion: { ro: "Îmbrăcăminte", en: "Fashion" },
+  electronics: { ro: "Electronice", en: "Electronics" },
+  realestate: { ro: "Imobiliare", en: "Real Estate" },
+  foodblog: { ro: "Blog culinar", en: "Food Blog" },
+  saas: { ro: "Developer Tool (SaaS)", en: "Developer Tool (SaaS)" },
+  dataapp: { ro: "Aplicație management date", en: "Data Management App" },
+  healthportal: { ro: "Portal medical", en: "Health Portal" },
 }
 
 export const processSteps = [
-  { icon: "message",     ro: "Discuție inițială",  en: "Initial talk",       roD: "Îmi spui despre afacerea ta și ce vrei să obții. Stabilim împreună obiectivele.",                        enD: "You tell me about your business and goals. We set objectives together." },
-  { icon: "pencilruler", ro: "Design & structură", en: "Design & structure", roD: "Creez designul și structura paginilor, pe care le aprobi înainte de implementare.",                      enD: "I create the design and page structure, which you approve before build." },
-  { icon: "code",        ro: "Dezvoltare",         en: "Development",        roD: "Construiesc site-ul rapid, optimizat și gata de mobil, cu tot conținutul.",                              enD: "I build the site fast, optimized and mobile-ready, with all content." },
-  { icon: "rocket",      ro: "Lansare & predare",  en: "Launch & handover",  roD: "Publicăm site-ul, îl conectăm la Google și îți predau tot ce ai nevoie.",                               enD: "We launch, connect it to Google and hand over everything you need." },
+  { icon: "message", ro: "Discuție inițială", en: "Initial talk", roD: "Îmi spui despre afacerea ta și ce vrei să obții. Stabilim împreună obiectivele.", enD: "You tell me about your business and goals. We set objectives together." },
+  { icon: "pencilruler", ro: "Design & structură", en: "Design & structure", roD: "Creez designul și structura paginilor, pe care le aprobi înainte de implementare.", enD: "I create the design and page structure, which you approve before build." },
+  { icon: "code", ro: "Dezvoltare", en: "Development", roD: "Construiesc site-ul rapid, optimizat și gata de mobil, cu tot conținutul.", enD: "I build the site fast, optimized and mobile-ready, with all content." },
+  { icon: "rocket", ro: "Lansare & predare", en: "Launch & handover", roD: "Publicăm site-ul, îl conectăm la Google și îți predau tot ce ai nevoie.", enD: "We launch, connect it to Google and hand over everything you need." },
 ]
 
 export const benefits = [
-  { icon: "dollar",    ro: "Preț fix, fără surprize",  en: "Fixed price, no surprises",   roD: "Știi exact cât plătești de la început. Fără costuri ascunse sau facturi neașteptate.", enD: "You know exactly what you pay from the start. No hidden costs." },
-  { icon: "zap",       ro: "Termene predictibile",     en: "Clear timeline",              roD: "Știi de la început etapele proiectului și termenul estimat de livrare.",               enD: "You know the project stages and estimated delivery timeline from the start." },
-  { icon: "handshake", ro: "Comunicare directă",       en: "Direct communication",        roD: "Discuți direct cu persoana care dezvoltă proiectul, fără intermediari.",               enD: "You work directly with the person developing your project." },
-  { icon: "shield",    ro: "Construit să dureze",      en: "Built to last",               roD: "Tehnologii moderne, securitate și performanță, ca site-ul să funcționeze ani de zile.", enD: "Modern tech, security and performance so the site runs for years." },
+  { icon: "dollar", ro: "Preț fix, fără surprize", en: "Fixed price, no surprises", roD: "Știi exact cât plătești de la început. Fără costuri ascunse sau facturi neașteptate.", enD: "You know exactly what you pay from the start. No hidden costs." },
+  { icon: "zap", ro: "Termene predictibile", en: "Clear timeline", roD: "Știi de la început etapele proiectului și termenul estimat de livrare.", enD: "You know the project stages and estimated delivery timeline from the start." },
+  { icon: "handshake", ro: "Comunicare directă", en: "Direct communication", roD: "Discuți direct cu persoana care dezvoltă proiectul, fără intermediari.", enD: "You work directly with the person developing your project." },
+  { icon: "shield", ro: "Construit să dureze", en: "Built to last", roD: "Tehnologii moderne, securitate și performanță, ca site-ul să funcționeze ani de zile.", enD: "Modern tech, security and performance so the site runs for years." },
 ]
 
 export const faqs = [
   {
-    ro: { q: "Prețurile afișate sunt fixe?",                          a: "Pachetele afișate acoperă cele mai comune tipuri de proiecte cu o structură relativ standard. Dacă ai nevoie de funcționalități diferite față de cele incluse în pachetele afișate sau de o soluție personalizată, îți pot oferi o estimare adaptată cerințelor tale." },
-    en: { q: "Are the listed prices fixed?",                          a: "The listed packages cover the most common types of projects with a relatively standard structure. If you need features that are different from the listed packages or a custom solution, I can provide an estimate tailored to your requirements." },
+    ro: { q: "Prețurile afișate sunt fixe?", a: "Pachetele afișate acoperă cele mai comune tipuri de proiecte cu o structură relativ standard. Dacă ai nevoie de funcționalități diferite față de cele incluse în pachetele afișate sau de o soluție personalizată, îți pot oferi o estimare adaptată cerințelor tale." },
+    en: { q: "Are the listed prices fixed?", a: "The listed packages cover the most common types of projects with a relatively standard structure. If you need features that are different from the listed packages or a custom solution, I can provide an estimate tailored to your requirements." },
   },
   {
-    ro: { q: "Se asigură găzduirea în prețul creării site-ului?",     a: "Nu. Găzduirea (hostingul) și domeniul sunt servicii separate, plătite direct către furnizorul ales. Pot realiza configurarea acestora ca parte a pachetului ales, însă proprietatea și controlul rămân în totalitate ale tale." },
+    ro: { q: "Se asigură găzduirea în prețul creării site-ului?", a: "Nu. Găzduirea (hostingul) și domeniul sunt servicii separate, plătite direct către furnizorul ales. Pot realiza configurarea acestora ca parte a pachetului ales, însă proprietatea și controlul rămân în totalitate ale tale." },
     en: { q: "Is hosting included in the website development price?", a: "No. Hosting and domain registration are separate services paid directly to the provider of your choice. I can set up and configure these services as part of the project, while ownership and full control of the accounts and website remain entirely yours." },
   },
   {
-    ro: { q: "Pot adăuga funcționalități noi mai târziu?",            a: "Da, în multe cazuri site-ul poate fi extins ulterior cu funcționalități noi. Pentru modificări simple, cum ar fi secțiuni noi, formulare sau ajustări de conținut, intervențiile sunt de obicei rapide. Pentru funcționalități care necesită backend, bază de date, autentificare sau panou de administrare, proiectul devine mai complex și va necesita o estimare separată." },
-    en: { q: "Can I add new features later?",                        a: "Yes, in many cases the website can be extended later with new features. Simple changes such as new sections, forms, or content updates are usually straightforward. Features that require a backend, database, authentication, or an admin panel are more complex and would need a separate estimate." },
+    ro: { q: "Pot adăuga funcționalități noi mai târziu?", a: "Da, în multe cazuri site-ul poate fi extins ulterior cu funcționalități noi. Pentru modificări simple, cum ar fi secțiuni noi, formulare sau ajustări de conținut, intervențiile sunt de obicei rapide. Pentru funcționalități care necesită backend, bază de date, autentificare sau panou de administrare, proiectul devine mai complex și va necesita o estimare separată." },
+    en: { q: "Can I add new features later?", a: "Yes, in many cases the website can be extended later with new features. Simple changes such as new sections, forms, or content updates are usually straightforward. Features that require a backend, database, authentication, or an admin panel are more complex and would need a separate estimate." },
   },
   {
-    ro: { q: "Cât durează realizarea unui site?",                    a: "În general, realizarea unui site durează aproximativ 2–3 săptămâni din momentul în care aprobăm macheta și primesc toate materialele necesare. Durata poate varia în funcție de complexitatea proiectului și de eventualele cerințe suplimentare." },
-    en: { q: "How long does it take to build a website?",            a: "In general, a website takes around 2–3 weeks to complete from the moment the design mockup is approved and all required materials have been provided. The timeline may vary depending on the project's complexity and any additional requirements." },
+    ro: { q: "Cât durează realizarea unui site?", a: "În general, realizarea unui site durează aproximativ 2–3 săptămâni din momentul în care aprobăm macheta și primesc toate materialele necesare. Durata poate varia în funcție de complexitatea proiectului și de eventualele cerințe suplimentare." },
+    en: { q: "How long does it take to build a website?", a: "In general, a website takes around 2–3 weeks to complete from the moment the design mockup is approved and all required materials have been provided. The timeline may vary depending on the project's complexity and any additional requirements." },
   },
   {
-    ro: { q: "Oferi suport gratuit după lansare?",                   a: "Da. Pachetul Starter include 30 de zile de suport după lansare pentru remedierea eventualelor probleme și ajustări minore. Pentru proiectele care necesită asistență continuă, sunt disponibile servicii de mentenanță și dezvoltare suplimentară la cerere." },
-    en: { q: "Do you offer free post-launch support?",               a: "Yes. All projects include a post-launch support period to address any issues and minor adjustments after the website goes live. The exact duration depends on the selected package. Ongoing maintenance and additional development services are available upon request after the support period ends." },
+    ro: { q: "Oferi suport gratuit după lansare?", a: "Da. Pachetul Starter include 30 de zile de suport după lansare pentru remedierea eventualelor probleme și ajustări minore. Pentru proiectele care necesită asistență continuă, sunt disponibile servicii de mentenanță și dezvoltare suplimentară la cerere." },
+    en: { q: "Do you offer free post-launch support?", a: "Yes. All projects include a post-launch support period to address any issues and minor adjustments after the website goes live. The exact duration depends on the selected package. Ongoing maintenance and additional development services are available upon request after the support period ends." },
   },
   {
-    ro: { q: "Cum se realizează plata?",                             a: "Plata se realizează pe baza unei facturi emise după livrarea proiectului și aprobarea acestuia de către client. Pentru proiectele mai mari, plata poate fi împărțită în etape, stabilite de comun acord înainte de începerea lucrului." },
-    en: { q: "How does payment work?",                               a: "Payment is made based on an invoice issued after the project is delivered and approved by the client. For larger projects, the payment can be split into agreed milestones established before work begins." },
+    ro: { q: "Cum se realizează plata?", a: "Plata se realizează pe baza unei facturi emise după livrarea proiectului și aprobarea acestuia de către client. Pentru proiectele mai mari, plata poate fi împărțită în etape, stabilite de comun acord înainte de începerea lucrului." },
+    en: { q: "How does payment work?", a: "Payment is made based on an invoice issued after the project is delivered and approved by the client. For larger projects, the payment can be split into agreed milestones established before work begins." },
   },
 ]
 
