@@ -61,7 +61,7 @@ demoUrl: "https://rcd-prop-pulse.vercel.app/"
 ### Food Blog / Astro Culinary project
 
 ```js
-image: "images/culinar-img/culinar_img1.png",
+image: "images/culinar-img/culinar_img1.webp",
 demoUrl: "https://astro-culinary-site.vercel.app/"
 ```
 

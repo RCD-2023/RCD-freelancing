@@ -75,7 +75,7 @@ function renderPortfolioGrid() {
   grid.innerHTML = filtered.map(p => `
     <article class="portfolio-card">
       <div class="portfolio-img-wrap">
-        <img src="${p.image}" alt="${p.title}" loading="lazy" onerror="this.style.display='none'">
+        <img src="${p.image}" alt="${p.title}" loading="lazy" decoding="async" onerror="this.style.display='none'">
         ${p.demoUrl ? `
           <a class="portfolio-demo-link" href="${p.demoUrl}" target="_blank" rel="noopener noreferrer">
             ${translations[currentLang]["portfolio.demo"]}

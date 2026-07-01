@@ -87,7 +87,7 @@ export const portfolioProjects = [
   {
     title: 'Fashion',
     category: 'fashion',
-    image: 'images/NextJs-Proj1/nextjs-pr1-img1.png',
+    image: 'images/NextJs-Proj1/nextjs-pr1-img1.webp',
     demoUrl: 'https://ecomm-bay-chi.vercel.app/',
     ro: 'Magazin online demo de haine, cu funcționalități de e-commerce: coș de cumpărături, autentificare, plăți online prin Stripe și PayPal și recenzii ale clienților.',
     en: 'Demo online clothing store with e-commerce functionality: shopping cart, authentication, online payments via Stripe and PayPal, and customer reviews.',
@@ -95,7 +95,7 @@ export const portfolioProjects = [
   {
     title: 'Real Estate',
     category: 'realestate',
-    image: 'images/NextJs-Proj2/nextjs-pr2-img1.png',
+    image: 'images/NextJs-Proj2/nextjs-pr2-img1.webp',
     demoUrl: 'https://rcd-prop-pulse.vercel.app/',
     ro: 'Proiect demo de imobiliare cu funcționalități extinse: afișare pe hartă, autentificare cu cont Gmail, formular de contact pentru proprietar și formular pentru adăugarea proprietăților.',
     en: 'Real estate demo project with extended functionality: map display, Gmail account authentication, owner contact form, and property submission form.',
@@ -103,7 +103,7 @@ export const portfolioProjects = [
   {
     title: 'Food Blog',
     category: 'foodblog',
-    image: 'images/culinar-img/culinar_img1.png',
+    image: 'images/culinar-img/culinar_img1.webp',
     demoUrl: 'https://astro-culinary-site.vercel.app/',
     ro: 'Aplicație simplă de tip blog culinar, construită pentru prezentarea unor rețete demo de conserve și siropuri pentru iarnă. Imaginile sunt placeholder, iar textele sunt fictive, nu rețete reale.',
     en: 'Simple culinary blog application built to present demo recipes for preserves and winter syrups. The images are placeholders, and the text is fictional, not real recipes.',
@@ -111,7 +111,7 @@ export const portfolioProjects = [
   {
     title: 'Developer Tool (SaaS)',
     category: 'saas',
-    image: 'images/devstash/devstash-img1.png',
+    image: 'images/devstash/devstash-img1.webp',
     demoUrl: 'https://rcd-devstash.vercel.app/',
     ro: 'Aplicație SaaS demo pentru centralizarea resurselor folosite frecvent de programatori: snippet-uri, prompturi, comenzi, notițe, linkuri și fișiere.',
     en: 'Demo SaaS application for centralizing resources commonly used by developers: snippets, prompts, commands, notes, links, and files.',
@@ -119,7 +119,7 @@ export const portfolioProjects = [
   {
     title: 'Electronics',
     category: 'electronics',
-    image: 'images/mern-proshop/img1-proshop.png',
+    image: 'images/mern-proshop/img1-proshop.webp',
     demoUrl: '',
     ro: 'Magazin online demo pentru produse electronice. Momentan linkul demo este dezactivat.',
     en: 'Demo online store for electronic products. The demo link is currently disabled.',
@@ -127,7 +127,7 @@ export const portfolioProjects = [
   {
     title: 'Real Estate',
     category: 'realestate',
-    image: 'images/django/img1-django.png',
+    image: 'images/django/img1-django.webp',
     demoUrl: '',
     ro: 'Proiect demo de imobiliare construit cu Django. Momentan linkul demo este dezactivat.',
     en: 'Real estate demo project built with Django. The demo link is currently disabled.',
@@ -135,7 +135,7 @@ export const portfolioProjects = [
   {
     title: 'Data Management App',
     category: 'dataapp',
-    image: 'images/dataCollect-images/formsApp-img5.png',
+    image: 'images/dataCollect-images/formsApp-img4.webp',
     demoUrl: '',
     ro: 'Aplicație demo pentru colectarea și stocarea datelor prin formulare. Momentan linkul demo este dezactivat.',
     en: 'Demo application for collecting and storing data through forms. The demo link is currently disabled.',

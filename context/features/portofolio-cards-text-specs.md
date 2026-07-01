@@ -34,7 +34,7 @@ const portfolioProjects=[
   {
     title: 'Blog Culinar',
     category: 'foodblog',
-    image: 'images/culinar-img/culinar_img1.png',
+    image: 'images/culinar-img/culinar_img1.webp',
     demoUrl: 'https://astro-culinary-site.vercel.app/',
     ro: 'Aplicație simplă de tip blog culinar, construită pentru prezentarea unor rețete demo de conserve și siropuri pentru iarnă. Imaginile sunt placeholder, iar textele sunt fictive, nu rețete reale.',
     en: 'Simple culinary blog application built to present demo recipes for preserves and winter syrups. The images are placeholders, and the text is fictional, not real recipes.',
