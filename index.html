@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Codreanu Daniel | Freelance Web Developer</title>
-  <meta name="description" content="Freelance web developer construiesc site-uri moderne, magazine online și aplicații web rapide și optimizate SEO. Disponibil pentru proiecte din România și internațional.">
+  <meta name="description" content="Freelance web developer. Creez site-uri de prezentare, magazine online și aplicații web moderne, rapide și optimizate SEO.">
   <link rel="canonical" href="https://danielcodreanu.com/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://danielcodreanu.com/">
   <meta property="og:title" content="Codreanu Daniel | Freelance Web Developer">
-  <meta property="og:description" content="Freelance web developer construiesc site-uri moderne, magazine online și aplicații web rapide și optimizate SEO. Disponibil pentru proiecte din România și internațional.">
+  <meta property="og:description" content="Freelance web developer. Creez site-uri de prezentare, magazine online și aplicații web moderne, rapide și optimizate SEO.">
   <meta property="og:image" content="https://danielcodreanu.com/images/logo/logo-v4.webp">
   <meta property="og:locale" content="ro_RO">
   <meta property="og:site_name" content="RCD-WebDev">
@@ -19,7 +19,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Codreanu Daniel | Freelance Web Developer">
-  <meta name="twitter:description" content="Freelance web developer construiesc site-uri moderne, magazine online și aplicații web rapide și optimizate SEO. Disponibil pentru proiecte din România și internațional.">
+  <meta name="twitter:description" content="Freelance web developer. Creez site-uri de prezentare, magazine online și aplicații web moderne, rapide și optimizate SEO.">
   <meta name="twitter:image" content="https://danielcodreanu.com/images/logo/logo-v4.webp">
 
   <!-- Structured data -->
@@ -44,7 +44,7 @@
   }
   </script>
 
-  <link rel="icon" type="image/png" href="images/logo/logo-v4.webp">
+  <link rel="icon" type="image/webp" href="images/logo/logo-v4.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -173,7 +173,37 @@
       </h2>
     </div>
     <div class="services-grid" id="services-grid">
-      <!-- grid with cards rendered by JS -->
+      <!-- Fallback content for no-JS/crawlers, replaced by renderServices() on load -->
+      <div class="service-card">
+        <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></div>
+        <h3>Creare site web</h3>
+        <p>Site modern, rapid și responsive, construit pe măsura afacerii tale.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <h3>Google Business & Maps</h3>
+        <p>Configurare profil Google ca să apari pe hartă și în căutări locale.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></div>
+        <h3>SEO de bază</h3>
+        <p>Optimizare pentru cuvinte cheie locale, ca să fii găsit de clienți.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg></div>
+        <h3>Analytics & Search Console</h3>
+        <p>Configurare instrumente ca să vezi clar câți vizitatori ai.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 19-9-9 19-2-8-8-2z"/></svg></div>
+        <h3>Promovare opțională</h3>
+        <p>Campanii Google și social media pentru mai mulți clienți.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+        <h3>Mentenanță</h3>
+        <p>Actualizări, backup și suport ca site-ul să meargă perfect.</p>
+      </div>
     </div>
   </div>
 </section> 
@@ -297,9 +327,90 @@
       <p class="section-subtitle" data-i18n="faq.subtitle">Tot ce trebuie să știi înainte să începem.</p>
     </div>
     <div class="faq-list" id="faq-list" role="list">
-      <!-- rendered by JS -->
+      <!-- Fallback content for no-JS/crawlers, replaced by renderFaq() on load -->
+      <div class="faq-fallback-item">
+        <h3 class="faq-fallback-q">Prețurile afișate sunt fixe?</h3>
+        <p class="faq-fallback-a">Pachetele afișate acoperă cele mai comune tipuri de proiecte cu o structură relativ standard. Dacă ai nevoie de funcționalități diferite față de cele incluse în pachetele afișate sau de o soluție personalizată, îți pot oferi o estimare adaptată cerințelor tale.</p>
+      </div>
+      <div class="faq-fallback-item">
+        <h3 class="faq-fallback-q">Se asigură găzduirea în prețul creării site-ului?</h3>
+        <p class="faq-fallback-a">Nu. Găzduirea (hostingul) și domeniul sunt servicii separate, plătite direct către furnizorul ales. Pot realiza configurarea acestora ca parte a pachetului ales, însă proprietatea și controlul rămân în totalitate ale tale.</p>
+      </div>
+      <div class="faq-fallback-item">
+        <h3 class="faq-fallback-q">Pot adăuga funcționalități noi mai târziu?</h3>
+        <p class="faq-fallback-a">Da, în multe cazuri site-ul poate fi extins ulterior cu funcționalități noi. Pentru modificări simple, cum ar fi secțiuni noi, formulare sau ajustări de conținut, intervențiile sunt de obicei rapide. Pentru funcționalități care necesită backend, bază de date, autentificare sau panou de administrare, proiectul devine mai complex și va necesita o estimare separată.</p>
+      </div>
+      <div class="faq-fallback-item">
+        <h3 class="faq-fallback-q">Cât durează realizarea unui site?</h3>
+        <p class="faq-fallback-a">În general, realizarea unui site durează aproximativ 2–3 săptămâni din momentul în care aprobăm macheta și primesc toate materialele necesare. Durata poate varia în funcție de complexitatea proiectului și de eventualele cerințe suplimentare.</p>
+      </div>
+      <div class="faq-fallback-item">
+        <h3 class="faq-fallback-q">Oferi suport gratuit după lansare?</h3>
+        <p class="faq-fallback-a">Da. Pachetul Starter include 30 de zile de suport după lansare pentru remedierea eventualelor probleme și ajustări minore. Pentru proiectele care necesită asistență continuă, sunt disponibile servicii de mentenanță și dezvoltare suplimentară la cerere.</p>
+      </div>
+      <div class="faq-fallback-item">
+        <h3 class="faq-fallback-q">Cum se realizează plata?</h3>
+        <p class="faq-fallback-a">Plata se realizează pe baza unei facturi emise după livrarea proiectului și aprobarea acestuia de către client. Pentru proiectele mai mari, plata poate fi împărțită în etape, stabilite de comun acord înainte de începerea lucrului.</p>
+      </div>
     </div>
   </div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Prețurile afișate sunt fixe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pachetele afișate acoperă cele mai comune tipuri de proiecte cu o structură relativ standard. Dacă ai nevoie de funcționalități diferite față de cele incluse în pachetele afișate sau de o soluție personalizată, îți pot oferi o estimare adaptată cerințelor tale."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Se asigură găzduirea în prețul creării site-ului?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nu. Găzduirea (hostingul) și domeniul sunt servicii separate, plătite direct către furnizorul ales. Pot realiza configurarea acestora ca parte a pachetului ales, însă proprietatea și controlul rămân în totalitate ale tale."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Pot adăuga funcționalități noi mai târziu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Da, în multe cazuri site-ul poate fi extins ulterior cu funcționalități noi. Pentru modificări simple, cum ar fi secțiuni noi, formulare sau ajustări de conținut, intervențiile sunt de obicei rapide. Pentru funcționalități care necesită backend, bază de date, autentificare sau panou de administrare, proiectul devine mai complex și va necesita o estimare separată."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cât durează realizarea unui site?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "În general, realizarea unui site durează aproximativ 2–3 săptămâni din momentul în care aprobăm macheta și primesc toate materialele necesare. Durata poate varia în funcție de complexitatea proiectului și de eventualele cerințe suplimentare."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Oferi suport gratuit după lansare?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Da. Pachetul Starter include 30 de zile de suport după lansare pentru remedierea eventualelor probleme și ajustări minore. Pentru proiectele care necesită asistență continuă, sunt disponibile servicii de mentenanță și dezvoltare suplimentară la cerere."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cum se realizează plata?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Plata se realizează pe baza unei facturi emise după livrarea proiectului și aprobarea acestuia de către client. Pentru proiectele mai mari, plata poate fi împărțită în etape, stabilite de comun acord înainte de începerea lucrului."
+        }
+      }
+    ]
+  }
+  </script>
 </section>
 
 <!-- ══════════════════════ CONTACT ══════════════════════ -->
