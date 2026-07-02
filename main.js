@@ -1,4 +1,5 @@
 import { setLang } from "./js/render.js"
+import { currentLang } from "./js/state.js"
 import { initThemeToggle } from "./js/theme.js"
 import { initMobileMenu } from "./js/menu.js"
 import { initContactForm } from "./js/contact.js"
@@ -33,7 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
   initMobileMenu()
   initContactForm()
   initThemeToggle()
-  setLang("ro")  // initial render — triggers all renderers
+  console.log(currentLang);
+  setLang('en');  // initial render — triggers all renderers
   initScrollReveal()
   initScrollSpy()
 })

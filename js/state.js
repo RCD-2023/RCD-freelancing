@@ -1,7 +1,7 @@
 /* ═══════════════════════════════════════════════
    STATE
 ═══════════════════════════════════════════════ */
-export let currentLang = "ro"
+export let currentLang = "en"
 export let activeCategory = "all"
 
 export function setCurrentLang(lang) {
